@@ -1,4 +1,9 @@
-function buttonclicked(){
+import _ from "lodash";
+
+function buttonclicked() {
     let hdr_ele = document.getElementById('headerele');
-    hdr_ele.innerHTML = "Change the header";
+    hdr_ele.innerHTML = _.capitalize("change the header");
+
 }
+
+export default buttonclicked;
