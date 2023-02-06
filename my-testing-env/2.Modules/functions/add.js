@@ -10,3 +10,5 @@ module.exports = {
     add,
     addAndMultiply
 };
+
+export {add, addAndMultiply}

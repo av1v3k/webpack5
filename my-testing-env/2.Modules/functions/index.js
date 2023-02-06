@@ -1,4 +1,5 @@
-const {add: addNumbers, addAndMultiply} = require("./add");
+// const {add: addNumbers, addAndMultiply} = require("./add");
+import { add as addNumbers, addAndMultiply } from "./add";
 
 function add() {
     console.log('hello add');
